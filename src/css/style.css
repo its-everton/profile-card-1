@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+
+    width: 330px;
+    height: 350px;
+}
+
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    gap: 10px;
+    height: 100%;
+}
+
+.perfil img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nome {
+    color: #000;
+    font-weight: bold;
+}
+
+.idade {
+    font-weight: bold;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.quantidade {
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
